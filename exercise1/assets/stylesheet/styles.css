@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/*ol, ul {
+	list-style: none;*/
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #D4CEA7;
+}
+.top{
+	width: 100%;
+	background-color: #F76013;
+	padding: 30px 50px;
+}
+
+.navi ul{
+	font: 11px ;
+	font-size: 20px;
+}
+.navi a{
+	text-decoration: none;
+	color: white;
+	padding-left: 45px;
+}
+.navi li{
+	display: inline-block;
+}
+/* first-box */
+.col{
+    display: flex;
+	padding-top: 25px;
+	justify-content: space-between;
+}
+.box1{
+    background-color: #015879;
+	color: lightgray;
+	width: 300px;
+    margin-left: 30px;
+    height: 500px;
+    box-shadow: 10px 10px 8px 10px rgba(80, 74, 74, 0.467);
+    padding-left: 30px;
+    padding-bottom: 98px;
+    padding-top: 20px;
+}
+/* listed */
+.listed{
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;
+    line-height: 1.5;
+}
+ul{
+	list-style-type: disc;
+}
+.list1{
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;
+    line-height: 1.5;
+}
+.list3{
+    background: url("../media/images/tick.png") ;
+    background-repeat: no-repeat;
+	background-size: 22px;
+	list-style-type: none;
+	padding-left: 35px;
+ }
+.menu{
+    margin-left: 32px;
+}
+.sub-menu{
+    margin-left: 32px;
+}
+ .box3 li{
+ 	line-height: 1.8;
+ }
+/* second-sec */
+.col2{
+	margin-top: 30px;
+	padding-top: 30px;
+
+}
+.ques1{
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+.answer{
+	padding-left: 60px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.ques2 {
+	padding-left: 40px;
+	font-size: 30px;
+}
+
+.ques3{
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+/* font */
+.font{
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px ;
+}
